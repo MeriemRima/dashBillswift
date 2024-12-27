@@ -59,7 +59,7 @@ export default function Account() {
       
           {/* Right: Edit Icon */}
           <div >
-            <Image src={edit} alt="Edit" className="h-6 w-6 cursor-pointer" />
+            <Image src={edit} alt="Edit" className="h-4 w-4 cursor-pointer" />
           </div>
         </div>
       
@@ -99,7 +99,7 @@ export default function Account() {
       
           {/* Right: Edit Icon */}
           <div >
-            <Image src={edit} alt="Edit" className="h-6 w-6 cursor-pointer" />
+            <Image src={edit} alt="Edit" className="h-4 w-4 cursor-pointer" />
           </div>
         </div>
         <div  className={` p-8 flex justify-between border-b pb-4  ${
@@ -144,7 +144,7 @@ export default function Account() {
       
           {/* Right: Edit Icon */}
           <div >
-            <Image src={edit} alt="Edit" className="h-6 w-6 cursor-pointer" />
+            <Image src={edit} alt="Edit" className="h-4 w-4 cursor-pointer" />
           </div>
         </div>
         <div  className={` p-8 flex justify-between border-b pb-4  ${
@@ -187,7 +187,7 @@ export default function Account() {
       
           {/* Right: Edit Icon */}
           <div >
-            <Image src={edit} alt="Edit" className="h-6 w-6 cursor-pointer" />
+            <Image src={edit} alt="Edit" className="h-4 w-4 cursor-pointer" />
           </div>
         </div>
         <div  className={` p-8 flex justify-between border-b pb-4  ${
@@ -313,7 +313,7 @@ export default function Account() {
     
         {/* Right: Edit Icon */}
         <div >
-          <Image src={edit} alt="Edit" className="h-6 w-6 cursor-pointer" />
+          <Image src={edit} alt="Edit" className="h-4 w-4 cursor-pointer" />
         </div>
       </div>
       <div  className={` p-8 flex justify-between border-b pb-4  ${
@@ -350,7 +350,7 @@ export default function Account() {
     
         {/* Right: Edit Icon */}
         <div >
-          <Image src={edit} alt="Edit" className="h-6 w-6 cursor-pointer" />
+          <Image src={edit} alt="Edit" className="h-4 w-4 cursor-pointer" />
         </div>
       </div>
       <div  className={` p-8 flex justify-between border-b pb-4  ${
@@ -390,7 +390,7 @@ export default function Account() {
     
         {/* Right: Edit Icon */}
         <div >
-          <Image src={edit} alt="Edit" className="h-6 w-6 cursor-pointer" />
+          <Image src={edit} alt="Edit" className="h-4 w-4 cursor-pointer" />
         </div>
       </div>
 
@@ -430,7 +430,7 @@ export default function Account() {
     
         {/* Right: Edit Icon */}
         <div >
-          <Image src={edit} alt="Edit" className="h-6 w-6 cursor-pointer" />
+          <Image src={edit} alt="Edit" className="h-4 w-4 cursor-pointer" />
         </div>
       </div>
       <div  className={` p-8 flex justify-between border-b pb-4  ${
@@ -469,7 +469,7 @@ export default function Account() {
     
         {/* Right: Edit Icon */}
         <div >
-          <Image src={edit} alt="Edit" className="h-6 w-6 cursor-pointer" />
+          <Image src={edit} alt="Edit" className="h-4 w-4 cursor-pointer" />
         </div>
       </div>
       <div  className={` p-8 flex justify-between border-b pb-4  ${
@@ -510,7 +510,7 @@ export default function Account() {
     
         {/* Right: Edit Icon */}
         <div >
-          <Image src={edit} alt="Edit" className="h-6 w-6 cursor-pointer" />
+          <Image src={edit} alt="Edit" className="h-4 w-4 cursor-pointer" />
         </div>
       </div>
     
@@ -550,7 +550,7 @@ export default function Account() {
     
         {/* Right: Edit Icon */}
         <div >
-          <Image src={edit} alt="Edit" className="h-6 w-6 cursor-pointer" />
+          <Image src={edit} alt="Edit" className="h-4 w-4 cursor-pointer" />
         </div>
       </div>
       <div  className={` p-8 flex justify-between border-b pb-4  ${
@@ -590,7 +590,7 @@ export default function Account() {
     
         {/* Right: Edit Icon */}
         <div >
-          <Image src={edit} alt="Edit" className="h-6 w-6 cursor-pointer" />
+          <Image src={edit} alt="Edit" className="h-4 w-4 cursor-pointer" />
         </div>
       </div>
      
@@ -722,7 +722,7 @@ purchase orders
     
         {/* Right: Edit Icon */}
         <div >
-          <Image src={edit} alt="Edit" className="h-6 w-6 cursor-pointer" />
+          <Image src={edit} alt="Edit" className="h-4 w-4 cursor-pointer" />
         </div>
       </div>
       <div  className={` p-8 flex justify-between border-b pb-4  ${
@@ -757,7 +757,7 @@ purchase orders
     
         {/* Right: Edit Icon */}
         <div >
-          <Image src={edit} alt="Edit" className="h-6 w-6 cursor-pointer" />
+          <Image src={edit} alt="Edit" className="h-4 w-4 cursor-pointer" />
         </div>
       </div>
       <div  className={` p-8 flex justify-between border-b pb-4  ${
@@ -796,7 +796,7 @@ purchase orders
     
         {/* Right: Edit Icon */}
         <div >
-          <Image src={edit} alt="Edit" className="h-6 w-6 cursor-pointer" />
+          <Image src={edit} alt="Edit" className="h-4 w-4 cursor-pointer" />
         </div>
       </div>
       <div  className={` p-8 flex justify-between border-b pb-4  ${
@@ -835,7 +835,7 @@ purchase orders
     
         {/* Right: Edit Icon */}
         <div >
-          <Image src={edit} alt="Edit" className="h-6 w-6 cursor-pointer" />
+          <Image src={edit} alt="Edit" className="h-4 w-4 cursor-pointer" />
         </div>
       </div>
       <div  className={` p-8 flex justify-between border-b pb-4  ${
@@ -874,7 +874,7 @@ purchase orders
     
         {/* Right: Edit Icon */}
         <div >
-          <Image src={edit} alt="Edit" className="h-6 w-6 cursor-pointer" />
+          <Image src={edit} alt="Edit" className="h-4 w-4 cursor-pointer" />
         </div>
       </div>
       <div  className={` p-8 flex justify-between border-b pb-4  ${
@@ -913,7 +913,7 @@ purchase orders
     
         {/* Right: Edit Icon */}
         <div >
-          <Image src={edit} alt="Edit" className="h-6 w-6 cursor-pointer" />
+          <Image src={edit} alt="Edit" className="h-4 w-4 cursor-pointer" />
         </div>
       </div>
       <div  className={` p-8 flex justify-between border-b pb-4  ${
@@ -961,7 +961,7 @@ been used for that supplier`, value: "On " },
     
         {/* Right: Edit Icon */}
         <div >
-          <Image src={edit} alt="Edit" className="h-6 w-6 cursor-pointer" />
+          <Image src={edit} alt="Edit" className="h-4 w-4 cursor-pointer" />
         </div>
       </div>
 

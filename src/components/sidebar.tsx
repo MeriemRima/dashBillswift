@@ -37,6 +37,33 @@ const Sidebar = () => {
       if(item==='dashboard'){
         router.push('/dashboard')
       }
+      if(item==='transactions'){
+        router.push('/bankTransaction')
+      }
+      if(item==='sales'){
+        router.push('/sales')
+      }
+      if(item==='expenses'){
+        router.push('/expenses')
+      }
+      if(item==='customer'){
+        router.push('/Custm&Leads')
+      }
+      if(item==='employe'){
+        router.push('/Employee')
+      }
+      if(item==='tax'){
+        router.push('/Taxes')
+      }
+      if(item==='apps'){
+        router.push('/Apps')
+      }
+      if(item==='report'){
+        router.push('/Reports')
+      }
+      if(item==='account'){
+        router.push('/Account')
+      }
     
   };
 
@@ -66,7 +93,7 @@ const Sidebar = () => {
     <div className="flex overflow-x: visible !important">
       {/* Sidebar */}
         {/* Sidebar */}
-        <div className={`bg-white-800 text-black fixed h-screen w-64 overflow-y-auto transition-all duration-300 z-10 w-64 sidebar`}>
+        <div className={`bg-white-800 text-black fixed h-screen w-72 overflow-y-auto transition-all duration-300 z-10  sidebar`}>
         {/* Sidebar content */}
         <div className="flex flex-col items-start p-8">
           {/* Logo and Title in a horizontal line */}
@@ -479,7 +506,7 @@ const Sidebar = () => {
               </div>
               <div className="mt-2 pl-8">
                 <div className="flex items-center">
-                  <a href="#" style={{fontSize:14}} className="text-gray-500 hover:text-gray-300">
+                  <a href="/bankTransaction" style={{fontSize:14}} className="text-gray-500 hover:text-gray-300">
                     Bank transaction
                   </a>
                 </div>

@@ -9,18 +9,18 @@ import DepositIcon from "../../../public/bankdepo.png";
 import ChequeIcon from "../../../public/cheque.png";
 
 const ShortcatsCard = () => {
-  const shortcuts = [
-    { icon: InvoiceIcon, label: "Create invoice" },
-    { icon: ExpenseIcon, label: "Record expense" },
-    { icon: DepositIcon, label: "Add bank deposit" },
-    { icon: ChequeIcon, label: "Create cheque" },
-  ];
+  // const shortcuts = [
+  //   { icon: InvoiceIcon, label: "Create invoice" },
+  //   { icon: ExpenseIcon, label: "Record expense" },
+  //   { icon: DepositIcon, label: "Add bank deposit" },
+  //   { icon: ChequeIcon, label: "Create cheque" },
+  // ];
 
   return (
-    <div className="p-4 bg-white rounded-lg shadow-md border border-gray-200">
+    <div className="p-4 bg-white rounded-lg shadow-md border h-64 border-gray-200">
       {/* Header */}
-      <div className="flex justify-between items-center mb-6">
-        <h4 className="text-gray-900 text-lg ">SHORTCUTS</h4>
+      <div className="flex justify-between items-center mb-12">
+        <h4 className="text-gray-900 text-sm " style={{fontFamily:'Roboto'}}>SHORTCUTS</h4>
         <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 17.589">
                   <g id="Edit_Edit_Pencil_Line_01" data-name="Edit / Edit_Pencil_Line_01" transform="translate(-3 -3.412)">
                     <path
@@ -37,23 +37,38 @@ const ShortcatsCard = () => {
       </div>
 
       {/* Shortcuts */}
-      <div className="grid grid-cols-4 gap-4 mb-24 mt-16">
-        {shortcuts.map((shortcut, index) => (
-          <div
-            key={index}
-            className="flex flex-col items-center text-center"
-          >
-            <div className="w-12 h-12 bg-gray-100 flex items-center justify-center rounded-full mb-2">
-              <Image
-                src={shortcut.icon}
-                alt={shortcut.label}
-                className="w-8 h-8"
-              />
-            </div>
-            <p className="text-gray-600 text-sm">{shortcut.label}</p>
-          </div>
-        ))}
-      </div>
+      <div className="grid grid-cols-4 gap-4 mb-6">
+  <div className="flex flex-col items-center text-center">
+    <div className="w-16 h-16 bg-gray-100 flex items-center justify-center rounded-full mb-2">
+      <Image src={InvoiceIcon} alt="Create invoice" className="w-6 h-8" />
+    </div>
+    <p className="text-gray-600 text-xs">Create invoice</p>
+  </div>
+  
+  <div className="flex flex-col items-center text-center">
+    <div className="w-16 h-16 bg-gray-100 flex items-center justify-center rounded-full mb-2">
+      <Image src={ExpenseIcon} alt="Record expense" className="w-8 h-8" />
+    </div>
+    <p className="text-gray-600 text-xs">Record expense</p>
+  </div>
+  
+  
+  <div className="flex flex-col items-center text-center">
+    <div className="w-16 h-16 bg-gray-100 flex items-center justify-center rounded-full mb-2">
+      <Image src={DepositIcon} alt="Record expense" className="w-8 h-8" />
+    </div>
+    <p className="text-gray-600 text-xs">Add bank deposite</p>
+  </div>
+  <div className="flex flex-col items-center text-center">
+    <div className="w-16 h-16 bg-gray-100 flex items-center justify-center rounded-full mb-2">
+      <Image src={ChequeIcon} alt="Record expense" className="w-9 h-7" />
+    </div>
+    <p className="text-gray-600 text-xs">Create Cheque</p>
+  </div>
+  
+ 
+</div>
+
 
       {/* Footer */}
       <div className="text-blue-500 text-sm hover:underline cursor-pointer">

@@ -77,7 +77,7 @@ export default function Messages() {
                     <Image
                       src={search}
                       alt="search"
-                      className="absolute right-4 top-1/2 transform -translate-y-1/2 w-4 h-4"
+                      className="absolute right-4 top-1/3 transform -translate-y-1/3 w-4 h-4"
                     />
                   </div>
                   <div className="mb-2 flex justify-between">
@@ -188,15 +188,18 @@ export default function Messages() {
                           </div>
                         ))}
                       </div>
-                      <div className="bg-white mx-6 p-2 my-4 rounded-lg flex items-center space-x-2">
+                      <div className={`bg-white mx-6 p-2 my-4 rounded-lg flex items-center justify-between `}>
                         <input
                           type="text"
                           placeholder="Tapez quelque chose "
                           className="flex-1 p-2 rounded-lg focus:outline-none"
                         />
-                        <Image src={img} alt="img" className="w-8 h-8" />
-                        <Image src={attachement} alt="att" className="w-8 h-8" />
+                        <div className={`flex items-center ${open?'mr-12':'mr-0'}`}>
+                        <Image src={img} alt="img" className="w-8 h-8 mr-2" />
+                        <Image src={attachement} alt="att" className="w-8 h-8 mr-2" />
                         <Image src={send} alt="send" className="w-8 h-8" />
+                        </div>
+                       
                       </div>
                     </div>
                   ) : (

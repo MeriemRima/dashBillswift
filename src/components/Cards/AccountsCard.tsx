@@ -13,8 +13,8 @@ const AccountCard = () => {
     labels: ['Blue', 'Red', 'Green'], // Labels for the segments
     datasets: [
       {
-        data: [60, 25, 15], // Percentages or values for each segment
-        backgroundColor: ['#4A90E2', '#E94F37', '#55C57A'], // Colors for each segment
+        data: [15, 15, 15,15,15,15,15], // Percentages or values for each segment
+        backgroundColor: ["#E5E5E5", "#E5E5E5", "#E5E5E5" ,"#E5E5E5","#E5E5E5","#E5E5E5","#E5E5E5"], // Colors for each segment
         borderColor: '#fff',
         borderWidth: 2,
       }
@@ -38,15 +38,15 @@ const AccountCard = () => {
     <div className="p-4 bg-gray-50 rounded-lg border border-gray-200 shadow flex flex-col ">
       {/* Title Section */}
       <div className="flex justify-between items-center">
-        <h4 className="text-gray-800 text-sm">ACCOUNT RE..</h4>
+        <h4 className="text-gray-800 text-sm" style={{fontFamily:'Roboto'}}>ACCOUNT RE..</h4>
         <div className="flex items-center">
           <Image alt="refresh" src={refresh} className="h-4 w-auto mr-4" />
-          <p className="ml-1 text-sm text-gray-500">As of today</p>
+          <p className="ml-1 text-xs text-gray-500" style={{fontFamily:'Roboto'}}>As of today</p>
         </div>
       </div>
-      <p className="text-gray-700 text-sm mb-4">Data updated a few seconds ago</p>
-      <p className="text-gray-600 text-sm">Total A/R amount</p>
-      <p className="font-bold text-lg">0.د.م.00</p>
+      <p className="text-gray-700 text-xs mb-4" style={{fontFamily:'Roboto'}}>Data updated a few seconds ago</p>
+      <p className="text-gray-600 text-xs" style={{fontFamily:'Roboto'}}>Total A/R amount</p>
+      <p className="font-bold text-l">0.د.م.00</p>
 
       {/* Chart and Info Section */}
       <div className="flex items-center">
@@ -56,29 +56,29 @@ const AccountCard = () => {
         {/* Content on the Right */}
         <div className="flex flex-col">
   {/* Color Legend */}
-  <div className="flex items-center flex-col mb-4 mr-8">
+  <div className="flex items-center flex-col  mr-8">
     {/* Blue Circle */}
-    <div className="flex items-center mb-4">
-      <div className="w-2 h-2 rounded-full mr-2" style={{ backgroundColor: '#4A90E2' }}></div>
+    <div className="flex items-center mb-2">
+      <div className="w-2 h-2 rounded-full mr-2"  style={{ backgroundColor: "#D2006B" }}      ></div>
       <div className="flex flex-col">
-        <p className="text-gray-700 text-xs">0.د.م.00</p>
-        <p className="text-gray-500 text-xs">current</p>
+        <p className="text-gray-700 text-xs" style={{fontFamily:'Roboto'}}>0.د.م.00</p>
+        <p className="text-gray-500 text-xs" style={{fontFamily:'Roboto'}}>current</p>
       </div>
     </div>
     {/* Red Circle */}
-    <div className="flex items-center mb-4">
-      <div className="w-2 h-2 rounded-full mr-2" style={{ backgroundColor: '#E94F37' }}></div>
+    <div className="flex items-center mb-2">
+      <div className="w-2 h-2 rounded-full mr-2" style={{ backgroundColor: '#E42E45' }}></div>
       <div className="flex flex-col">
-        <p className="text-gray-700 text-xs">0.د.م.00</p>
-        <p className="text-gray-500 text-xs">current</p>
+        <p className="text-gray-700 text-xs" style={{fontFamily:'Roboto'}}>0.د.م.00</p>
+        <p className="text-gray-500 text-xs" style={{fontFamily:'Roboto'}}>current</p>
       </div>
     </div>
     {/* Green Circle */}
-    <div className="flex items-center mb-4">
-      <div className="w-2 h-2 rounded-full mr-2" style={{ backgroundColor: '#55C57A' }}></div>
+    <div className="flex items-center mb-2">
+      <div className="w-2 h-2 rounded-full mr-2" style={{ backgroundColor: '#E76936' }}></div>
       <div className="flex flex-col">
-        <p className="text-gray-700 text-xs">0.د.م.00</p>
-        <p className="text-gray-500 text-xs">current</p>
+        <p className="text-gray-700 text-xs" style={{fontFamily:'Roboto'}}>0.د.م.00</p>
+        <p className="text-gray-500 text-xs" style={{fontFamily:'Roboto'}}>current</p>
       </div>
     </div>
   </div>
@@ -88,7 +88,7 @@ const AccountCard = () => {
           <Doughnut data={data} options={options} /> {/* Added options here */}
         </div>
       </div>
-      <div className="text-blue-500 text-sm hover:underline cursor-pointer">
+      <div className="text-blue-500 text-xs hover:underline cursor-pointer" style={{fontFamily:'Roboto'}}>
         Go to report 
       </div>
     </div>
